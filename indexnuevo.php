@@ -3,7 +3,7 @@ $host="localhost";
 $usuario="root";
 $contraseña="";
 $bdato="nexcell";
-
+//se agrega esta linea para revisar el historial de modificaciones//
 $conexion=new mysqli($host, $usuario, $contraseña, $bdato);
 if ($conexion -> connect_errno)
 {   
